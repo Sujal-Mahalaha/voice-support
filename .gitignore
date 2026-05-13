@@ -1,0 +1,27 @@
+.vercel/
+
+# Dependencies
+node_modules/
+voice-support-ui/node_modules/
+
+# Environment files
+.env
+.env.*
+!.env.example
+voice-support-ui/.env
+voice-support-ui/.env.*
+
+# Build output and caches
+build/
+dist/
+.cache/
+voice-support-ui/build/
+voice-support-ui/dist/
+voice-support-ui/.cache/
+voice-support-ui/node_modules/.cache/
+
+# Logs and OS/editor files
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
